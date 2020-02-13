@@ -1,0 +1,19 @@
+{
+  "name": "crud-nodejs-gpes-trainning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewserati/crud-nodejs-gpes-trainning.git"
+  },
+  "author": "sirlordx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewserati/crud-nodejs-gpes-trainning/issues"
+  },
+  "homepage": "https://github.com/andrewserati/crud-nodejs-gpes-trainning#readme"
+}
