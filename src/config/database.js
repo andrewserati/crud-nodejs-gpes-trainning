@@ -6,7 +6,7 @@ mongoose
         useUnifiedTopology: true,
         useNewUrlParser: true,
     })
-    .then(() => console.log('Banco de dados conectado!'))
+    .then(() => console.log(`Banco de dados ${process.env.DB_NAME} conectado!`))
     .catch(error => {
         console.log(`Problema ao contectar com o banco de dados: ${error.message}`);
     });
