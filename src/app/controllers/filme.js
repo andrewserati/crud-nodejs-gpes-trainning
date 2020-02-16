@@ -13,6 +13,16 @@ class Filme {
         })
     }
 
+    getById(req, res) {
+        FilmeSchema.findById(req.params._id, (err, filme) => {
+            if (err) {
+                res.status(500).json({ message: 'Houve um erro ao processar sua requisição', error: err })
+            } else {
+                res.status(200).json({ message: 'Filme recuperado com sucesso', data: filme })
+            }
+        })
+    }
+
     create(req, res) {
         FilmeSchema.create(req.body, (err, filme) => {
             if (err) {
